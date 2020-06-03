@@ -1,0 +1,75 @@
+.hold{
+    background-color: #f3f3f5;
+    font-size: 45px;
+}
+.headBackground{
+    width: 100%;
+}
+.head{
+    width: 100%;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    width: 30%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 50%;
+}
+
+.title{
+    font-size: 100px;
+    color: #183c7a;
+}
+.input{
+    border: solid 5px #183c7a;
+    border-radius: 20px;
+    height: 100px;
+    align-content: center;
+    padding-right: 10px;
+}
+.Icon{
+    color: #183c7a;
+    line-height: 85px;
+}
+.form{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.input>input{
+    border: 0px;
+    border-radius: 20px;
+    outline:none;
+    background-color:#f3f3f5 ;
+    width: 100%;
+    line-height: 88px;
+
+}
+.buttom{
+    color: white;
+    background-color: #183c7a;
+    width: 100%;
+    border-radius: 20px;
+    line-height: 100px;
+    margin-top: 60px;
+}
+.name{
+    line-height: 100px;
+    display: inline;
+}
+
+.form form div{
+    margin-top: 20px;
+}
+
+
+/*.form_son{*/
+    /*width: 100%;*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*text-align: center;*/
+/*}*/
+
+
+

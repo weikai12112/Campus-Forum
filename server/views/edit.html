@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>修改信息</title>
+    <link rel="stylesheet" href="/public/css/bootstrap.css">
+    <link rel="stylesheet" href="/public/css/main.css">
+    <link rel="stylesheet" href="../public/css/edit.css">
+
+
+
+</head>
+<body class="hold">
+<div class="head">修改信息</div>
+
+
+    <form class="form">
+        <div class="row oneRow ROW">
+            <div class="col-xs-7">
+                <div class="col-xs-5">头像 ：</div>
+                <div class="col-xs-7 upImg">
+                    <input type="file" id="updataImg" >
+                </div>
+
+            </div>
+            <div class="col-xs-4">
+                <div class="HeadPortrait">
+                    <img src="../public/img/HeadPortrait.jpg" id="img">
+                </div>
+            </div>
+            <div class="col-xs-1">
+                <span class="glyphicon glyphicon-chevron-right specialSymbol"></span>
+            </div>
+        </div>
+        <div class="row  ROW">
+            <div class="col-xs-3">
+                昵称  ：
+            </div>
+            <div class="col-xs-8">
+                <input   id="name">
+            </div>
+            <div class="col-xs-1">
+                <span class="glyphicon glyphicon-chevron-right specialSymbol"></span>
+            </div>
+        </div>
+        <div class="row  ROW">
+            <div class="col-xs-3">
+                学号  ：
+            </div>
+            <div class="col-xs-8" id="number">
+
+            </div>
+            <div class="col-xs-1">
+
+            </div>
+        </div>
+        <div class="row  ROW">
+            <div class="col-xs-3">
+                手机  ：
+            </div>
+            <div class="col-xs-8">
+                <input value="头像" id="phone">
+            </div>
+            <div class="col-xs-1">
+                <span class="glyphicon glyphicon-chevron-right specialSymbol"></span>
+            </div>
+        </div>
+        <div class="row  ROW">
+            <div class="col-xs-3">
+                密码  ：
+            </div>
+            <div class="col-xs-8">
+                <input type="password" value="头像" id="password">
+            </div>
+            <div class="col-xs-1">
+                <span class="glyphicon glyphicon-chevron-right specialSymbol"></span>
+            </div>
+        </div>
+        <div>
+            <div class="buttom" id="change">确认修改</div>
+        </div>
+        <div>
+            <div class="cancelButtom" id="cancel">取消修改</div>
+        </div>
+    </form>
+
+</body>
+
+
+<script src="../public/js/jquery-3.3.1.js"></script>
+<script src="../public/js/jquery.cookie.js"></script>
+<script src="../public/js/edit.js"></script>
+</html>

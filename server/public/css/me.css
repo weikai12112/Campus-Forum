@@ -1,0 +1,69 @@
+.foot div:nth-child(2){
+    background-color: #122f62;
+}
+.HeadPortrait>img{
+    width: 100%;
+    height: auto;
+}
+.HeadPortrait{
+    border-radius: 20px;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin-left: 20%;
+}
+.InfoLeft{
+    float: left;
+}
+.text{
+    padding-top: 100px;
+}
+
+
+.text>div:nth-child(1){
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-bottom: solid 2px #e6e6e6;
+    margin-bottom: 40px;
+}
+.name{
+    font-size: 60px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.rightSymble{
+    margin-left: 20%;
+}
+.specialSymbol{
+    line-height: 200px;
+}
+.app{
+    color: #183c7a;
+    padding: 0;
+}
+.app>div{
+    height: 150px;
+    line-height: 150px;
+    font-size: 50px;
+}
+
+.app span{
+    margin-left: 50px;
+    margin-right: 20px;
+    line-height: 150px;
+}
+.text>div:nth-child(1):hover{
+    background-color:#e6e6e6;
+}
+.appRight>div{
+    float: left;
+    line-height: 160px;
+}
+.app{
+    border-bottom: 2px solid #e6e6e6;
+}
+.app>div>div:hover{
+    background-color:#e6e6e6;
+}
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="/public/css/bootstrap.css">
+    <link rel="stylesheet" href="/public/css/register.css">
+
+
+</head>
+<body class="hold">
+<div class="head">
+    <img src="/public/img/logo1.png" class="logo">
+    <img src="/public/img/login_head.png" class="headBackground">
+</div>
+<div class="text-center">
+    <div class="title">广海社区注册</div>
+    <div class="form">
+        <form>
+            <div class="row line">
+                <div class="col-xs-3 name">昵称</div>
+                <div class="input col-xs-8">
+                    <input type="text" id="nickname">
+                </div>
+            </div>
+            <div class="row line">
+                <div class="col-xs-3 name">学号</div>
+                <div class="input col-xs-8">
+                    <input type="number" id="number" minlength="12" onblur="numberJudge()">
+                </div>
+            </div>
+            <div class="row line">
+                <div class="col-xs-3 name">手机</div>
+                <div class="input col-xs-8">
+                    <input type="number" id="phone" minlength="11">
+                </div>
+            </div>
+            <div class="row line">
+                <div class="col-xs-3 name">密码</div>
+                <div class="input col-xs-8">
+                    <input type="password" id="password" minlength="6">
+                </div>
+            </div>
+            <div class="turn">
+                <a href="/login" class="col-xs-offset-8">已有账号？</a>
+            </div>
+
+            <div>
+                <div class="buttom">注册</div>
+            </div>
+        </form>
+    </div>
+
+</div>
+<script src="/public/js/jquery-3.3.1.js"></script>
+<script src="../public/js/jquery.cookie.js"></script>
+<script src="/public/js/register.js"></script>
+</body>
+</html>

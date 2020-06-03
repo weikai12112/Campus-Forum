@@ -1,0 +1,64 @@
+.HeadPortrait>img{
+    width: 100%;
+    height: auto;
+}
+.HeadPortrait{
+    border-radius: 20px;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin-left: 20%;
+}
+.oneRow>div{
+    display: inline;
+    line-height: 200px;
+    position: relative;
+}
+.ROW{
+    font-size: 50px;
+    border-bottom: 2px solid #e6e6e6;
+    padding :30px;
+}
+.ROW input{
+    background-color: transparent;
+    outline:none;
+    border: 0px;
+}
+.form>div:hover{
+    background-color: #e6e6e6;
+}
+.buttom{
+    color: white;
+    background-color: #183c7a;
+    width: 100%;
+    border-radius: 20px;
+    line-height: 110px;
+    text-align: center;
+    margin-left: 15px;
+}
+.cancelButtom{
+    color: #183c7a;
+    background-color: white;
+    border: 2px solid  #183c7a;
+    width: 100%;
+    border-radius: 20px;
+    line-height: 110px;
+    text-align: center;
+    margin-left: 15px;
+}
+.form>div:nth-child(6){
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.form{
+    margin-top: 120px;
+}
+.oneRow>div>div{
+    padding: 0px;
+}
+.oneRow input{
+    opacity: 0;
+    position: absolute;
+    width: 200%;
+    z-index: 999;
+}

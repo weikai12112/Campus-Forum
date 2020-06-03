@@ -1,0 +1,62 @@
+/*head*/
+.head{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    display: inline;
+    text-align: center;
+    background-color: #183c7a;
+    color: white;
+    line-height: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    letter-spacing:30px;
+    padding-left: 30px;
+}
+
+/*mid*/
+.hold{
+    background-color: #f3f3f5;
+    font-size: 45px;
+}
+.mid{
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 200px;
+}
+/*foot*/
+.foot{
+    color: white;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background-color: #183c7a;
+    bottom: 0px;
+    height: 140px;
+}
+.foot>div{
+    width: 50%;
+    line-height: 140px;
+}
+.foot>div:hover{
+    background-color:#122f62 ;
+}
+.foot>div:nth-child(1){
+    padding-left: 150px;
+}
+.foot>div:nth-child(2){
+    padding-left: 300px;
+}
+.logo{
+    position: fixed;
+    bottom: 0px;
+    z-index: 999;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 300px;
+}
+.logo>img{
+    width: 300px;
+}

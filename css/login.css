@@ -1,0 +1,85 @@
+.hold{
+    background-color: #f3f3f5;
+    font-size: 45px;
+}
+.headBackground{
+    width: 100%;
+}
+.head{
+    width: 100%;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    width: 30%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 50%;
+}
+
+.title{
+    font-size: 100px;
+    color: #183c7a;
+}
+.input{
+    border: solid 5px #183c7a;
+    border-radius: 20px;
+    height: 100px;
+    margin-top: 60px;
+}
+.Icon{
+    color: #183c7a;
+    line-height: 85px;
+}
+.form{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.input>input{
+    border: 0px;
+    outline:none;
+    background-color:#f3f3f5 ;
+}
+.buttom{
+    color: white;
+    background-color: #183c7a;
+    width: 100%;
+    border-radius: 20px;
+    height: 100px;
+    margin-top: 60px;
+}
+.foot{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    color: #183c7a;
+}
+.third{
+    border-top: solid 4px #183c7a;
+}
+.third>div:nth-child(1){
+    font-size: 40px;
+    margin-top: 10px;
+}
+.thirdLogo>img{
+    width: 15%;
+}
+.thirdLogo{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.new{
+    text-align: left;
+    display: inline;
+    margin-left: 100px;
+}
+.forget{
+    float: right;
+    display: inline;
+    margin-right: 100px;
+}
+.bottom{
+    margin-bottom: 20px;
+    color: #183c7a;
+}

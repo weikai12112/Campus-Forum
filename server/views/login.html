@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>系统登录</title>
+    <link rel="stylesheet" href="/public/css/bootstrap.css">
+    <link rel="stylesheet" href="/public/css/login.css">
+
+</head>
+<body class="hold">
+    <div class="head">
+        <img src="/public/img/logo1.png" class="logo">
+        <img src="/public/img/login_head.png" class="headBackground">
+    </div>
+    <div class="text-center">
+        <div class="title">广海社区系统</div>
+        <div class="form">
+            <form>
+                <div class="input">
+                    <span class="glyphicon glyphicon-user Icon"></span>
+                    <input id="number">
+                </div>
+                <div class="input">
+                    <span class="glyphicon glyphicon-lock Icon"></span>
+                    <input id="password" type="password">
+                </div>
+                <div>
+                    <div onclick="login()" class="buttom">登录</div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <footer class="navbar-fixed-bottom">
+        <div class="bottom">
+            <a href="/register" class="new">注册新账号</a>
+            <a href="#" class="forget">忘记密码</a>
+        </div>
+        <div class="foot">
+            <div class="third">
+                <div>第三方登录</div>
+                <div class="thirdLogo">
+                    <img src="/public/img/wechat_logo.png">
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="../public/js/jquery-3.3.1.js"></script>
+    <script src="../public/js/jquery.cookie.js"></script>
+    <script src="../public/js/Login.js"></script>
+
+</body>
+</html>
